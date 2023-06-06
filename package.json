@@ -11,6 +11,10 @@
     "dotenv": "^16.1.4",
     "express": "^4.18.2"
   },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.ts"
+  },
   "devDependencies": {
     "@types/cors": "^2.8.13",
     "@types/dotenv": "^8.2.0",
